@@ -265,5 +265,54 @@ body {
     .main-content {
         padding: 15px;
     }
-
 }
+/*
+for catogory index page
+*/
+        .top-bar{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            margin-bottom:20px;
+        }
+
+        .btn{
+            background:#2563eb;
+            color:#fff;
+            padding:10px 16px;
+            text-decoration:none;
+            border-radius:6px;
+        }
+
+        table{
+            width:100%;
+            border-collapse:collapse;
+            background:#fff;
+            border-radius:8px;
+            overflow:hidden;
+        }
+
+        th,td{
+            padding:12px;
+            border-bottom:1px solid #ddd;
+            text-align:left;
+        }
+
+        th{
+            background:#1f2937;
+            color:white;
+        }
+
+        .active{ color:green; font-weight:bold; }
+        .inactive{ color:red; font-weight:bold; }
+
+        .edit{
+            color:#2563eb;
+            text-decoration:none;
+            margin-right:10px;
+        }
+
+        .delete{
+            color:red;
+            text-decoration:none;
+        }
